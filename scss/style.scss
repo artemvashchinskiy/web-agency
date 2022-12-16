@@ -1,3 +1,5 @@
-body {
-    background: red;
-}
+@import "./mixin";
+@import "./common";
+
+// sections
+@import "./sections/hero/hero";
