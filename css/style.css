@@ -165,4 +165,13 @@ li {
 .achivment__descr {
   font-size: .75rem;
 }
+
+.menu {
+  height: 100px;
+}
+
+.menu__list {
+  color: grey;
+  font-size: 30px;
+}
 /*# sourceMappingURL=style.css.map */
