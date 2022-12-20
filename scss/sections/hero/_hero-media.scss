@@ -1,0 +1,12 @@
+@media (max-width: $bp2) {
+    .hero-block {
+        padding: 0;
+    }
+}
+
+@media (max-width: $bp3) {
+    .hero-block {
+        padding: 50px 0;
+        height: initial;
+    }
+}

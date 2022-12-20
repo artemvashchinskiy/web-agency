@@ -1,0 +1,21 @@
+@media (max-width: $bp1) {
+    .menu-block {
+        &__toggle {
+            display: block;
+        }
+    }
+    
+    .menu {
+        display: none;
+    }
+
+    .works-menu-block {
+        &__toggle {
+            display: block;
+        }
+    }
+    
+    .works-menu {
+        display: none;
+    }
+}

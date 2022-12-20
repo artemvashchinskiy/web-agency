@@ -4,6 +4,7 @@
 
 .header {
     background: red;
+    display: none;
 }
 .header-block {
     padding: 20px o;
@@ -13,6 +14,13 @@
     margin-right: auto;
     img {
         height: 30px;
+    }
+}
+
+.menu-block {
+    &__toggle {
+        display: none;
+        //order: -1;
     }
 }
 
@@ -31,6 +39,12 @@
     }    
 }
 
+.works-menu-block {
+    &__toggle {
+        display: none;
+    }
+}
+
 .works-menu {
     @include flex;
     text-transform: uppercase;
@@ -42,6 +56,7 @@
         }
     }
 }
+
 
 .search-block {
     img {
